@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3525ae809a8c23ac955838a66e4d8257 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3525ae809a8c23ac955838a66e4d8257" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3525ae809a8c23ac955838a66e4d8257 = L.map(
+                "map_3525ae809a8c23ac955838a66e4d8257",
+                {
+                    center: [-37.8136, 144.9631],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a0ad58627a9c97a0bf2ccd4f9d195687 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var marker_874bb0d5d4d24f716566d7a1165cc58d = L.marker(
+                [-37.7655919, 144.9633048],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_ce098a02b116f909891cec012c2c9fe6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_874bb0d5d4d24f716566d7a1165cc58d.setIcon(icon_ce098a02b116f909891cec012c2c9fe6);
+        
+    
+        var popup_c214ab239ff78a07644db2b63206054e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fd8b466e49ed2befd150b6a25d5388a = $(`<div id="html_8fd8b466e49ed2befd150b6a25d5388a" style="width: 100.0%; height: 100.0%;"><strong>Upstairs 2C Staley Street Brunswick VIC 3056</strong><br>$35,000 Annually</div>`)[0];
+                popup_c214ab239ff78a07644db2b63206054e.setContent(html_8fd8b466e49ed2befd150b6a25d5388a);
+            
+        
+
+        marker_874bb0d5d4d24f716566d7a1165cc58d.bindPopup(popup_c214ab239ff78a07644db2b63206054e)
+        ;
+
+        
+    
+    
+            marker_874bb0d5d4d24f716566d7a1165cc58d.bindTooltip(
+                `<div>
+                     Upstairs 2C Staley Street Brunswick VIC 3056
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cc5a601e1545896bd82440837577ce9 = L.marker(
+                [-37.7663981, 144.9594197],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_9dccaf74cae9ba40e0061fcaef1ef05f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4cc5a601e1545896bd82440837577ce9.setIcon(icon_9dccaf74cae9ba40e0061fcaef1ef05f);
+        
+    
+        var popup_4fb39b073c0c67f78e672b544065433f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_408f042c860bb52a1fbe6351ac8e9ea7 = $(`<div id="html_408f042c860bb52a1fbe6351ac8e9ea7" style="width: 100.0%; height: 100.0%;"><strong>Ground Floor 325 Victoria Street Brunswick VIC 3056</strong><br>Contact Agent</div>`)[0];
+                popup_4fb39b073c0c67f78e672b544065433f.setContent(html_408f042c860bb52a1fbe6351ac8e9ea7);
+            
+        
+
+        marker_4cc5a601e1545896bd82440837577ce9.bindPopup(popup_4fb39b073c0c67f78e672b544065433f)
+        ;
+
+        
+    
+    
+            marker_4cc5a601e1545896bd82440837577ce9.bindTooltip(
+                `<div>
+                     Ground Floor 325 Victoria Street Brunswick VIC 3056
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8f7278d9d7bb701aef5cf19b1be2782 = L.marker(
+                [-37.8480587, 145.0380481],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_b203ab92fbd0acd77761d8584b966bf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8f7278d9d7bb701aef5cf19b1be2782.setIcon(icon_b203ab92fbd0acd77761d8584b966bf0);
+        
+    
+        var popup_a42b3f10e291b1ac343c5bc566a2f76f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d3686aa949a17507f69dd314056edc4 = $(`<div id="html_8d3686aa949a17507f69dd314056edc4" style="width: 100.0%; height: 100.0%;"><strong>14A Ethel Street Malvern VIC 3144</strong><br>Fully furn-$5000 per week based on 3 month rental</div>`)[0];
+                popup_a42b3f10e291b1ac343c5bc566a2f76f.setContent(html_8d3686aa949a17507f69dd314056edc4);
+            
+        
+
+        marker_e8f7278d9d7bb701aef5cf19b1be2782.bindPopup(popup_a42b3f10e291b1ac343c5bc566a2f76f)
+        ;
+
+        
+    
+    
+            marker_e8f7278d9d7bb701aef5cf19b1be2782.bindTooltip(
+                `<div>
+                     14A Ethel Street Malvern VIC 3144
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91c5987661a5b18445e25c96864724b6 = L.marker(
+                [-37.8069882, 144.9610136],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_901ed9013ef4a34d483006b24301a340 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_91c5987661a5b18445e25c96864724b6.setIcon(icon_901ed9013ef4a34d483006b24301a340);
+        
+    
+        var popup_e8cbc6d6b3a0bc0bd909938ec8a53ad0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a54e6fbcce36481f9bc90c0982c13add = $(`<div id="html_a54e6fbcce36481f9bc90c0982c13add" style="width: 100.0%; height: 100.0%;"><strong>4807/27 Therry Street Melbourne VIC 3000</strong><br>$5000 Per Week</div>`)[0];
+                popup_e8cbc6d6b3a0bc0bd909938ec8a53ad0.setContent(html_a54e6fbcce36481f9bc90c0982c13add);
+            
+        
+
+        marker_91c5987661a5b18445e25c96864724b6.bindPopup(popup_e8cbc6d6b3a0bc0bd909938ec8a53ad0)
+        ;
+
+        
+    
+    
+            marker_91c5987661a5b18445e25c96864724b6.bindTooltip(
+                `<div>
+                     4807/27 Therry Street Melbourne VIC 3000
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3d4062b420faf4891bb2de74137c245 = L.marker(
+                [-37.8213342, 144.9646982],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_99ed2d146f1e619b6f497e3ff21ed4ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f3d4062b420faf4891bb2de74137c245.setIcon(icon_99ed2d146f1e619b6f497e3ff21ed4ef);
+        
+    
+        var popup_ba8bf3f04d43ac80b8002f72fe765d23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb817c30f827577def8752398a07c510 = $(`<div id="html_fb817c30f827577def8752398a07c510" style="width: 100.0%; height: 100.0%;"><strong>8701/7 Riverside Quay Southbank VIC 3006</strong><br>$5,000.00</div>`)[0];
+                popup_ba8bf3f04d43ac80b8002f72fe765d23.setContent(html_fb817c30f827577def8752398a07c510);
+            
+        
+
+        marker_f3d4062b420faf4891bb2de74137c245.bindPopup(popup_ba8bf3f04d43ac80b8002f72fe765d23)
+        ;
+
+        
+    
+    
+            marker_f3d4062b420faf4891bb2de74137c245.bindTooltip(
+                `<div>
+                     8701/7 Riverside Quay Southbank VIC 3006
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa5147a201c1b2f7cca71b8b77eac0fb = L.marker(
+                [-37.9003624, 144.987364],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_313b55334d858bc7623b2403842f476b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa5147a201c1b2f7cca71b8b77eac0fb.setIcon(icon_313b55334d858bc7623b2403842f476b);
+        
+    
+        var popup_7806fd0f386401b7b518610bf298357b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43e013646ee839eaf926deb828081821 = $(`<div id="html_43e013646ee839eaf926deb828081821" style="width: 100.0%; height: 100.0%;"><strong>4/9 Glyndon Avenue Brighton VIC 3186</strong><br>Contact Agent</div>`)[0];
+                popup_7806fd0f386401b7b518610bf298357b.setContent(html_43e013646ee839eaf926deb828081821);
+            
+        
+
+        marker_fa5147a201c1b2f7cca71b8b77eac0fb.bindPopup(popup_7806fd0f386401b7b518610bf298357b)
+        ;
+
+        
+    
+    
+            marker_fa5147a201c1b2f7cca71b8b77eac0fb.bindTooltip(
+                `<div>
+                     4/9 Glyndon Avenue Brighton VIC 3186
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69e3db5bb1f062a3b805c1f706708cba = L.marker(
+                [-37.8176878, 144.9597256],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_47468464beb793a105cb47ec641240e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69e3db5bb1f062a3b805c1f706708cba.setIcon(icon_47468464beb793a105cb47ec641240e5);
+        
+    
+        var popup_0d90eb375c6fa075bb0bc70af0e2f3a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6698e1f26c88f2c2a1c91857f3d020e0 = $(`<div id="html_6698e1f26c88f2c2a1c91857f3d020e0" style="width: 100.0%; height: 100.0%;"><strong>3605/439 Collins Street Melbourne VIC 3000</strong><br>$4,500 Per Week</div>`)[0];
+                popup_0d90eb375c6fa075bb0bc70af0e2f3a7.setContent(html_6698e1f26c88f2c2a1c91857f3d020e0);
+            
+        
+
+        marker_69e3db5bb1f062a3b805c1f706708cba.bindPopup(popup_0d90eb375c6fa075bb0bc70af0e2f3a7)
+        ;
+
+        
+    
+    
+            marker_69e3db5bb1f062a3b805c1f706708cba.bindTooltip(
+                `<div>
+                     3605/439 Collins Street Melbourne VIC 3000
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0332d2f88bd5bfb2b72d70c5ae1c4e12 = L.marker(
+                [-37.9044002, 144.9997396],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_0211809b0c7eac3123387995d3b375b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0332d2f88bd5bfb2b72d70c5ae1c4e12.setIcon(icon_0211809b0c7eac3123387995d3b375b7);
+        
+    
+        var popup_6f073bd50161cf22b8102a5043685f97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b64d8fe7e7ffa8abf97a89205438b87 = $(`<div id="html_8b64d8fe7e7ffa8abf97a89205438b87" style="width: 100.0%; height: 100.0%;"><strong>Enquire For Address Brighton VIC 3186</strong><br>$4,400.00</div>`)[0];
+                popup_6f073bd50161cf22b8102a5043685f97.setContent(html_8b64d8fe7e7ffa8abf97a89205438b87);
+            
+        
+
+        marker_0332d2f88bd5bfb2b72d70c5ae1c4e12.bindPopup(popup_6f073bd50161cf22b8102a5043685f97)
+        ;
+
+        
+    
+    
+            marker_0332d2f88bd5bfb2b72d70c5ae1c4e12.bindTooltip(
+                `<div>
+                     Enquire For Address Brighton VIC 3186
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36d64b389be610c23ab9c7ddca1a36fc = L.marker(
+                [-37.9044002, 144.9997396],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_bfdcfb2078b1a9c2053cd7a9f6563018 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_36d64b389be610c23ab9c7ddca1a36fc.setIcon(icon_bfdcfb2078b1a9c2053cd7a9f6563018);
+        
+    
+        var popup_87433807ab32faeb302643c8983424ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_760e8c2645cf688096a8f4f88536afed = $(`<div id="html_760e8c2645cf688096a8f4f88536afed" style="width: 100.0%; height: 100.0%;"><strong>Brighton VIC 3186</strong><br>$4400 Per Week</div>`)[0];
+                popup_87433807ab32faeb302643c8983424ae.setContent(html_760e8c2645cf688096a8f4f88536afed);
+            
+        
+
+        marker_36d64b389be610c23ab9c7ddca1a36fc.bindPopup(popup_87433807ab32faeb302643c8983424ae)
+        ;
+
+        
+    
+    
+            marker_36d64b389be610c23ab9c7ddca1a36fc.bindTooltip(
+                `<div>
+                     Brighton VIC 3186
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e57880a02e207e1181e8f5dc4d274a51 = L.marker(
+                [-37.8387729, 144.9755698],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_ef16a49ad6d2cd7b30073f4430626436 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e57880a02e207e1181e8f5dc4d274a51.setIcon(icon_ef16a49ad6d2cd7b30073f4430626436);
+        
+    
+        var popup_766e79e12fbbf1218c0571987c867358 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb7d8743d1d50102c8002bc2b82c6ff4 = $(`<div id="html_fb7d8743d1d50102c8002bc2b82c6ff4" style="width: 100.0%; height: 100.0%;"><strong>UNIT 1805/450 ST KILDA ROAD Melbourne VIC 3004</strong><br>$3,810</div>`)[0];
+                popup_766e79e12fbbf1218c0571987c867358.setContent(html_fb7d8743d1d50102c8002bc2b82c6ff4);
+            
+        
+
+        marker_e57880a02e207e1181e8f5dc4d274a51.bindPopup(popup_766e79e12fbbf1218c0571987c867358)
+        ;
+
+        
+    
+    
+            marker_e57880a02e207e1181e8f5dc4d274a51.bindTooltip(
+                `<div>
+                     UNIT 1805/450 ST KILDA ROAD Melbourne VIC 3004
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0d95286c12bf06e0f1c1b211cfb1a21 = L.marker(
+                [-38.1439923, 144.7147899],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_2ce24a3f86198d677aa245d24274a9b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0d95286c12bf06e0f1c1b211cfb1a21.setIcon(icon_2ce24a3f86198d677aa245d24274a9b6);
+        
+    
+        var popup_4287a21e25ae1be0aa7747cf058aff2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38024149599b9260e304c062e298804e = $(`<div id="html_38024149599b9260e304c062e298804e" style="width: 100.0%; height: 100.0%;"><strong>335 The Esplanade Indented Head VIC 3223</strong><br>$4,700 pw /$700 pn High, $3,775 pw/$545 pn Low</div>`)[0];
+                popup_4287a21e25ae1be0aa7747cf058aff2b.setContent(html_38024149599b9260e304c062e298804e);
+            
+        
+
+        marker_b0d95286c12bf06e0f1c1b211cfb1a21.bindPopup(popup_4287a21e25ae1be0aa7747cf058aff2b)
+        ;
+
+        
+    
+    
+            marker_b0d95286c12bf06e0f1c1b211cfb1a21.bindTooltip(
+                `<div>
+                     335 The Esplanade Indented Head VIC 3223
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48916347e7030c739bb7d944697be88a = L.marker(
+                [-37.8085173, 144.9696285],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_ba5a5d7b79b5fadc2e25fb1a68017812 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_48916347e7030c739bb7d944697be88a.setIcon(icon_ba5a5d7b79b5fadc2e25fb1a68017812);
+        
+    
+        var popup_d5f8ba63a42024d18311b5ecad5165e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_391bc70237996ecdba543c1d0e21e9a2 = $(`<div id="html_391bc70237996ecdba543c1d0e21e9a2" style="width: 100.0%; height: 100.0%;"><strong>5401/308 Exhibition Street Melbourne VIC 3000</strong><br>$3,750 weekly</div>`)[0];
+                popup_d5f8ba63a42024d18311b5ecad5165e4.setContent(html_391bc70237996ecdba543c1d0e21e9a2);
+            
+        
+
+        marker_48916347e7030c739bb7d944697be88a.bindPopup(popup_d5f8ba63a42024d18311b5ecad5165e4)
+        ;
+
+        
+    
+    
+            marker_48916347e7030c739bb7d944697be88a.bindTooltip(
+                `<div>
+                     5401/308 Exhibition Street Melbourne VIC 3000
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f85ac3c1df9f5386750e03b4783b6b49 = L.marker(
+                [-37.8663298, 144.9093],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_ddd5b05be62be63fd2afd9211d7620c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f85ac3c1df9f5386750e03b4783b6b49.setIcon(icon_ddd5b05be62be63fd2afd9211d7620c8);
+        
+    
+        var popup_5ea60c4b2ae86c0ad7794c4858385634 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38ff7102e223d4960a51783101ac0c50 = $(`<div id="html_38ff7102e223d4960a51783101ac0c50" style="width: 100.0%; height: 100.0%;"><strong>24B Kanowna Street Williamstown VIC 3016</strong><br>$3,750 Per Week</div>`)[0];
+                popup_5ea60c4b2ae86c0ad7794c4858385634.setContent(html_38ff7102e223d4960a51783101ac0c50);
+            
+        
+
+        marker_f85ac3c1df9f5386750e03b4783b6b49.bindPopup(popup_5ea60c4b2ae86c0ad7794c4858385634)
+        ;
+
+        
+    
+    
+            marker_f85ac3c1df9f5386750e03b4783b6b49.bindTooltip(
+                `<div>
+                     24B Kanowna Street Williamstown VIC 3016
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ee1caadd6ccad2e168f1440fa643084 = L.marker(
+                [-37.96682029999999, 145.1745992],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_33dde27e0f61d5d0512b9c14f52508df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ee1caadd6ccad2e168f1440fa643084.setIcon(icon_33dde27e0f61d5d0512b9c14f52508df);
+        
+    
+        var popup_1299370e9b13f8d374f99add6760ede1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8965daec033eb8911ddb2a9b6cedad00 = $(`<div id="html_8965daec033eb8911ddb2a9b6cedad00" style="width: 100.0%; height: 100.0%;"><strong>11 Buckley Street Noble Park VIC 3174</strong><br>$3,630 mth INC GST + O/G</div>`)[0];
+                popup_1299370e9b13f8d374f99add6760ede1.setContent(html_8965daec033eb8911ddb2a9b6cedad00);
+            
+        
+
+        marker_9ee1caadd6ccad2e168f1440fa643084.bindPopup(popup_1299370e9b13f8d374f99add6760ede1)
+        ;
+
+        
+    
+    
+            marker_9ee1caadd6ccad2e168f1440fa643084.bindTooltip(
+                `<div>
+                     11 Buckley Street Noble Park VIC 3174
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb729ae4f6e6063b1472e1c8308c9d18 = L.marker(
+                [-37.8245935, 144.9434826],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_61ca0294181a6f85dfcc26849270b4d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb729ae4f6e6063b1472e1c8308c9d18.setIcon(icon_61ca0294181a6f85dfcc26849270b4d7);
+        
+    
+        var popup_3712dfb3be43678149eac3f0b613b32a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b7e29cf1c207dd8d13824e17f801fd9 = $(`<div id="html_0b7e29cf1c207dd8d13824e17f801fd9" style="width: 100.0%; height: 100.0%;"><strong>4002/90 Lorimer Street Docklands VIC 3008</strong><br>$3,500</div>`)[0];
+                popup_3712dfb3be43678149eac3f0b613b32a.setContent(html_0b7e29cf1c207dd8d13824e17f801fd9);
+            
+        
+
+        marker_cb729ae4f6e6063b1472e1c8308c9d18.bindPopup(popup_3712dfb3be43678149eac3f0b613b32a)
+        ;
+
+        
+    
+    
+            marker_cb729ae4f6e6063b1472e1c8308c9d18.bindTooltip(
+                `<div>
+                     4002/90 Lorimer Street Docklands VIC 3008
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29bf2edca15c9b86a9d45073f4a081e7 = L.marker(
+                [-38.4652721, 144.9797924],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_43c3e0556b36ccfcf7d66ab85d61af57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29bf2edca15c9b86a9d45073f4a081e7.setIcon(icon_43c3e0556b36ccfcf7d66ab85d61af57);
+        
+    
+        var popup_d0716d924f15fe9870e5df3c02ac8fc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6d1bb55a136225c9875779d71bd1bd7 = $(`<div id="html_a6d1bb55a136225c9875779d71bd1bd7" style="width: 100.0%; height: 100.0%;"><strong>97 Punchbowl Road Flinders VIC 3929</strong><br>$3200 Per Week</div>`)[0];
+                popup_d0716d924f15fe9870e5df3c02ac8fc3.setContent(html_a6d1bb55a136225c9875779d71bd1bd7);
+            
+        
+
+        marker_29bf2edca15c9b86a9d45073f4a081e7.bindPopup(popup_d0716d924f15fe9870e5df3c02ac8fc3)
+        ;
+
+        
+    
+    
+            marker_29bf2edca15c9b86a9d45073f4a081e7.bindTooltip(
+                `<div>
+                     97 Punchbowl Road Flinders VIC 3929
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c595f8aa4509c5fc8bc8e85589768be4 = L.marker(
+                [-37.8213341, 144.9646982],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_695a6f3454140701b26361cb4a2a5a69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c595f8aa4509c5fc8bc8e85589768be4.setIcon(icon_695a6f3454140701b26361cb4a2a5a69);
+        
+    
+        var popup_9cfb0e7aca3e2b3c3a36bcddb7cbed68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c0095e3f53a353eb406f336f1a0eac2 = $(`<div id="html_4c0095e3f53a353eb406f336f1a0eac2" style="width: 100.0%; height: 100.0%;"><strong>6001/7 Riverside Quay Southbank VIC 3006</strong><br>$3,200 per week</div>`)[0];
+                popup_9cfb0e7aca3e2b3c3a36bcddb7cbed68.setContent(html_4c0095e3f53a353eb406f336f1a0eac2);
+            
+        
+
+        marker_c595f8aa4509c5fc8bc8e85589768be4.bindPopup(popup_9cfb0e7aca3e2b3c3a36bcddb7cbed68)
+        ;
+
+        
+    
+    
+            marker_c595f8aa4509c5fc8bc8e85589768be4.bindTooltip(
+                `<div>
+                     6001/7 Riverside Quay Southbank VIC 3006
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a77b36812971c6528b8b15750cb7d5d3 = L.marker(
+                [-37.972402, 145.0234586],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_6e1aa969bcef63f3ab1f7bc27795fa0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a77b36812971c6528b8b15750cb7d5d3.setIcon(icon_6e1aa969bcef63f3ab1f7bc27795fa0f);
+        
+    
+        var popup_65950750ef0d004cc0e8bb6358d070e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bcb435a743794669238b90fd5489c07 = $(`<div id="html_5bcb435a743794669238b90fd5489c07" style="width: 100.0%; height: 100.0%;"><strong>58 Ardoyne Street Black Rock VIC 3193</strong><br>$3,100 per week</div>`)[0];
+                popup_65950750ef0d004cc0e8bb6358d070e6.setContent(html_5bcb435a743794669238b90fd5489c07);
+            
+        
+
+        marker_a77b36812971c6528b8b15750cb7d5d3.bindPopup(popup_65950750ef0d004cc0e8bb6358d070e6)
+        ;
+
+        
+    
+    
+            marker_a77b36812971c6528b8b15750cb7d5d3.bindTooltip(
+                `<div>
+                     58 Ardoyne Street Black Rock VIC 3193
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_061750ef91c57e8544a067201b6a0e84 = L.marker(
+                [-37.8715299, 145.0482812],
+                {}
+            ).addTo(map_3525ae809a8c23ac955838a66e4d8257);
+        
+    
+            var icon_15b9271aaf610484377ecbf8f1484669 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_061750ef91c57e8544a067201b6a0e84.setIcon(icon_15b9271aaf610484377ecbf8f1484669);
+        
+    
+        var popup_362d1eed7e9ac0da9530e4d9928a14fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2a509fd20af3164284c8ff3291e87ec = $(`<div id="html_d2a509fd20af3164284c8ff3291e87ec" style="width: 100.0%; height: 100.0%;"><strong>75 Coppin Street Malvern East VIC 3145</strong><br>$3,010.00</div>`)[0];
+                popup_362d1eed7e9ac0da9530e4d9928a14fc.setContent(html_d2a509fd20af3164284c8ff3291e87ec);
+            
+        
+
+        marker_061750ef91c57e8544a067201b6a0e84.bindPopup(popup_362d1eed7e9ac0da9530e4d9928a14fc)
+        ;
+
+        
+    
+    
+            marker_061750ef91c57e8544a067201b6a0e84.bindTooltip(
+                `<div>
+                     75 Coppin Street Malvern East VIC 3145
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
