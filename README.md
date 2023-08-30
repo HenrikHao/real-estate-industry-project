@@ -8,5 +8,7 @@
 ## Pipeline
 
 To run the pipeline, please follow the instructions below:
+
+Please run ```cd scripts``` first
 1. `scripts/download.py`: This script downloads shape file from ABS and extract them into `data/Statistical_area_level2`
 2. `scripts/scrape.py`: This script scrapes property data from `www.domain.com.au` and store them into `data/raw/property.json`
