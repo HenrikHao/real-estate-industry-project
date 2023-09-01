@@ -7,7 +7,7 @@ import requests
 
 # constants
 BASE_URL = "https://www.domain.com.au"
-N_PAGES = range(1, 2)
+N_PAGES = range(1, 51)
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; CrOS x86_64 12871.102.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.141 Safari/537.36"
 }
@@ -61,7 +61,7 @@ for property_url in url_links[1:]:
                 bs_object \
                     .find(
                         "a",
-                        {"target": "_blank", 'rel': "noopener noreferer"}
+                        {"target": "_blank", 'rel': "noopener noreferrer"}
                     ) \
                     .attrs['href']
             )[0].split(',')
