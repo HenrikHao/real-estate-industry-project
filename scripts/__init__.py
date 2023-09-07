@@ -6,4 +6,4 @@ population_forecast_url = "https://www.gen-agedcaredata.gov.au/www_aihwgen/media
 
 download.download_and_extract_zip(shapefile_url, "../data/statistical_area_level2")
 download.download_and_extract_zip(census_2021_url, "../data/landing/census2021")
-download.download_and_extract_zip
+#download.download_and_extract_zip
