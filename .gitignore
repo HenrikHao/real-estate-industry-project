@@ -128,11 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# data
-data/curated/
-data/raw/
-data/landing/
-
 # OSX .DS_Store file
 .DS_Store
 notebooks/suibianxiexie.ipynb
+
+data/landing/census2021
+data/landing/census2016
+

@@ -99,5 +99,5 @@ for property_url in url_links:
 
     time.sleep(5)  # Sleep for 5 seconds between individual property requests
 
-with open('../data/raw/property.json', 'w') as f:
+with open('../data/landing/property.json', 'w') as f:
     dump(property_metadata, f)
