@@ -15,5 +15,7 @@ Please run ```cd scripts``` first
 
 Notebooks:
 1. `notebooks/preprocessing_properties.ipynb`: Run this for properties data preprocessing
-2. `notebooks/aggregation.ipynb`: This notebook will aggregate properties data with other proximities.
-3. `notebooks/proprocessing_properties.ipynb`: This is for properties data preprocessing
+2. `notebooks/find_proximity.ipynb`: This notebook will aggregate properties data with other proximities.
+3. `notebooks/feature_selection.ipynb`: This notebook will list out the most correlated feature to the rent.
+4. `notebooks/`
+
