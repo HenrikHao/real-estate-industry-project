@@ -14,8 +14,11 @@ Please run ```cd scripts``` first
 2. `scripts/scrape.py`: This script scrapes property data from `www.domain.com.au` and store them into `data/landing/property.json`
 
 Notebooks:
+0. `notebooks/mapping.ipynb`: Map the SA2 to LGA.
 1. `notebooks/preprocessing_properties.ipynb`: Run this for properties data preprocessing
 2. `notebooks/find_proximity.ipynb`: This notebook will aggregate properties data with other proximities.
 3. `notebooks/feature_selection.ipynb`: This notebook will list out the most correlated feature to the rent.
-4. `notebooks/`
+4. `notebooks/properties_aggregation.ipynb`: This notebook will aggregate the data based on LGA levels and then merge population, affluence and offence count to the properties data.
+5. `notebooks/modelling.ipynb`: This note book will predict the future three years rent.
+5. `notebooks/scoring.ipynb`: As what it is.
 
