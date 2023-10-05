@@ -1,4 +1,4 @@
-,SA2_CODE21,SA2_NAME21,LGA_CODE23,LGA_NAME23
+,SA2_CODE21,SA2_NAME21,LGA_CODE21,LGA_NAME21
 0,201011001,Alfredton,20570,Ballarat
 1,201011002,Ballarat,20570,Ballarat
 2,201011005,Buninyong,20570,Ballarat
@@ -110,13 +110,13 @@
 108,205051102,Rosedale,26810,Wellington
 109,205051103,Sale,26810,Wellington
 110,205051104,Yarram,26810,Wellington
-111,206011106,Brunswick East,24700,Merri-bek
-112,206011107,Brunswick West,24700,Merri-bek
-113,206011109,Pascoe Vale South,24700,Merri-bek
-114,206011495,Brunswick - North,24700,Merri-bek
-115,206011496,Brunswick - South,24700,Merri-bek
-116,206011497,Coburg - East,24700,Merri-bek
-117,206011498,Coburg - West,24700,Merri-bek
+111,206011106,Brunswick East,25250,Moreland
+112,206011107,Brunswick West,25250,Moreland
+113,206011109,Pascoe Vale South,25250,Moreland
+114,206011495,Brunswick - North,25250,Moreland
+115,206011496,Brunswick - South,25250,Moreland
+116,206011497,Coburg - East,25250,Moreland
+117,206011498,Coburg - West,25250,Moreland
 118,206021110,Alphington - Fairfield,21890,Darebin
 119,206021112,Thornbury,21890,Darebin
 120,206021499,Northcote - East,21890,Darebin
@@ -270,14 +270,14 @@
 268,210021233,Macedon,24130,Macedon Ranges
 269,210021234,Riddells Creek,24130,Macedon Ranges
 270,210021235,Romsey,24130,Macedon Ranges
-271,210031236,Coburg North,24700,Merri-bek
-272,210031237,Fawkner,24700,Merri-bek
-273,210031439,Gowanbrae,24700,Merri-bek
-274,210031440,Hadfield,24700,Merri-bek
-275,210031535,Glenroy - East,24700,Merri-bek
-276,210031536,Glenroy - West,24700,Merri-bek
-277,210031537,Oak Park,24700,Merri-bek
-278,210031538,Pascoe Vale,24700,Merri-bek
+271,210031236,Coburg North,25250,Moreland
+272,210031237,Fawkner,25250,Moreland
+273,210031439,Gowanbrae,25250,Moreland
+274,210031440,Hadfield,25250,Moreland
+275,210031535,Glenroy - East,25250,Moreland
+276,210031536,Glenroy - West,25250,Moreland
+277,210031537,Oak Park,25250,Moreland
+278,210031538,Pascoe Vale,25250,Moreland
 279,210041240,Sunbury,23270,Hume
 280,210041539,Diggers Rest,24650,Melton
 281,210041540,Sunbury - South,23270,Hume
