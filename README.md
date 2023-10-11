@@ -10,8 +10,8 @@
 To run the pipeline, please follow the instructions below:
 
 Please run ```cd scripts``` first
-1. run ```python __init__.py``` : This script downloads SA2 shape files, LGA shape files, 2016 census data and 2021 census data from ABS and extract them into `data/shapefile`, `data/landing/census2016` and `data/landing/census2021`.
-2. `scripts/scrape.py`: This script scrapes property data from `www.domain.com.au` and store them into `data/landing/property.json`
+1. run ```python __init__.py``` from terminal: This script downloads SA2 shape files, LGA shape files, 2016 census data and 2021 census data from ABS and extract them into `data/shapefile`, `data/landing/census2016` and `data/landing/census2021`.
+2. run ```python scrape.py```: This script scrapes property data from `www.domain.com.au` and store them into `data/landing/property.json`
 
 Notebooks:
 0. `notebooks/mapping.ipynb`: Map the SA2 to LGA.
