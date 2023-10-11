@@ -5,7 +5,7 @@ from collections import defaultdict
 from bs4 import BeautifulSoup
 import requests
 
-# constants
+# Constants
 BASE_URL = "https://www.domain.com.au"
 MAX_PAGES = 50
 HEADERS = {
@@ -16,6 +16,15 @@ url_links = []
 property_metadata = defaultdict(dict)
 
 def make_request(url):
+    """
+    Make a GET request to a given URL and return the BeautifulSoup object.
+    
+    Parameters:
+    - url (str): The URL to make a request to.
+    
+    Returns:
+    - BeautifulSoup object: Parsed HTML content of the URL.
+    """
     try:
         response = requests.get(url, headers=HEADERS, timeout=60)
         return BeautifulSoup(response.text, "lxml")
@@ -23,6 +32,7 @@ def make_request(url):
         print(f"Error while fetching {url}. Error: {e}")
         return None
 
+# Loop through postcodes and pages to scrape property URLs
 for postcode in range(3000, 4000):
     for page in range(1, MAX_PAGES + 1):
         url = BASE_URL + f"/rent/?excludedeposittaken=1&postcode={postcode}&page={page}"
@@ -48,12 +58,14 @@ for postcode in range(3000, 4000):
                 if 'address' in link['class']:
                     url_links.append(link['href'])
 
-            time.sleep(5)  # Sleep for 5 seconds between page requests to avoid rate limits
+            # Sleep for 5 seconds between page requests to avoid rate limits
+            time.sleep(5)
 
         except AttributeError as e:
             print(f"Unexpected page structure at {url}. Error: {e}")
             break
 
+# Loop through property URLs to extract metadata
 for property_url in url_links:
     bs_object = make_request(property_url)
     if not bs_object:
@@ -97,7 +109,9 @@ for property_url in url_links:
         print(bs_object.text)
         continue
 
-    time.sleep(5)  # Sleep for 5 seconds between individual property requests
+    # Sleep for 5 seconds between individual property requests
+    time.sleep(5)
 
+# Save the scraped metadata to a JSON file
 with open('../data/landing/property.json', 'w') as f:
     dump(property_metadata, f)
