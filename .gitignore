@@ -130,8 +130,4 @@ dmypy.json
 
 # OSX .DS_Store file
 .DS_Store
-notebooks/suibianxiexie.ipynb
-
-data/landing/census2021
-data/landing/census2016
 
