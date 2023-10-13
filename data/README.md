@@ -15,6 +15,9 @@ The population forecast data is published by Australian Institute of Health and 
 ## Historical Rent Data
 The historical rent data is published by Homes Victoria and can be found [here](https://discover.data.vic.gov.au/dataset/rental-report-quarterly-moving-annual-rents-by-suburb). Please note that this dataset is also in excel format so we have also manually deleted some irrelevant rows and columns. The data is stored in `raw/Quarterly median rents by local government area - March quarter 2023.xlsx` as it was manually preprocessed.
 
+## PTV Station Data
+The PTV station data was found on PTV website: [metro](https://discover.data.vic.gov.au/dataset/ptv-metro-train-stations) and [regional](https://discover.data.vic.gov.au/dataset/ptv-regional-train-stations)
+
 ## Facilities Location Data
 Location data including hospital, school, park, etc, are collected from overpass turbo.
 
